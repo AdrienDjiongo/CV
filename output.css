@@ -593,16 +593,16 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .flex {
@@ -781,6 +781,10 @@ body {
   }
 }
 
+.cvContainer {
+  overflow: hidden;
+}
+
 .nav2 {
   animation-name: navAnim2;
   animation-duration: 4s;
@@ -906,3 +910,4 @@ div > p {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
+
