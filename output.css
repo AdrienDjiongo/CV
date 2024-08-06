@@ -625,6 +625,14 @@ video {
   height: 1.75rem;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -702,6 +710,10 @@ video {
   font-weight: 600;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-4 {
   line-height: 1rem;
 }
@@ -718,6 +730,10 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 
 body {
@@ -787,13 +803,13 @@ body {
 
 .nav2 {
   animation-name: navAnim2;
-  animation-duration: 4s;
+  animation-duration: 5s;
 }
 
 .nav {
   background-color: #282828;
   animation-name: navAnim;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 
 nav {
@@ -880,6 +896,10 @@ div > p {
     height: 18rem;
   }
 
+  .md\:h-8 {
+    height: 2rem;
+  }
+
   .md\:bg-gray-600 {
     --tw-bg-opacity: 1;
     background-color: rgb(75 85 99 / var(--tw-bg-opacity));
@@ -910,4 +930,5 @@ div > p {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
+
 
